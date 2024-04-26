@@ -18,7 +18,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/http2/hpack"
+	"github.com/ChillAndImprove/net/http2/hpack"
 )
 
 // TestTestClientConn demonstrates usage of testClientConn.

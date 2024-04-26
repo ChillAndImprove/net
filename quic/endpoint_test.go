@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/quic/qlog"
+	"github.com/ChillAndImprove/net/quic/qlog"
 )
 
 func TestConnect(t *testing.T) {

@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/net/icmp"
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/ipv6"
-	"golang.org/x/net/nettest"
+	"github.com/ChillAndImprove/net/icmp"
+	"github.com/ChillAndImprove/net/internal/iana"
+	"github.com/ChillAndImprove/net/ipv6"
+	"github.com/ChillAndImprove/net/nettest"
 )
 
 var packetConnReadWriteMulticastUDPTests = []struct {

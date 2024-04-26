@@ -11,8 +11,8 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/net/internal/iana"
-	"golang.org/x/net/internal/socket"
+	"github.com/ChillAndImprove/net/internal/iana"
+	"github.com/ChillAndImprove/net/internal/socket"
 
 	"golang.org/x/sys/unix"
 )
